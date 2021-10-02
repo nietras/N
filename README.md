@@ -36,6 +36,10 @@ I--;
 ```
 Absolutely need to assign something?
 ```csharp
+I=0;
+```
+or
+```csharp
 I=I;
 ```
 What about `args`? `N`s got you covered.

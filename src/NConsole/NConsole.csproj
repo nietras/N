@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="N" Version="0.1.0" />
+    <PackageReference Include="N" Version="0.1.1" />
   </ItemGroup>
 
 </Project>

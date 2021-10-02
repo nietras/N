@@ -1,6 +1,6 @@
-﻿namespace nietras;
+﻿namespace System;
 
-public static class Nify
+public static class C
 {
     public static Task T { get; set; } = Task.CompletedTask;
 

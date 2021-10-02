@@ -5,7 +5,7 @@
     <RootNamespace>nietras</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <PackageVersion>$(Version)</PackageVersion>
     <LangVersion>10</LangVersion>
     <NuspecFile>N.nuspec</NuspecFile>
