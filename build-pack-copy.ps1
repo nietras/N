@@ -1,3 +1,3 @@
 dotnet build -c Release
-dotnet pack
+dotnet pack -c Release
 cp "src\N\bin\Release\*.nupkg" .\ -Force
