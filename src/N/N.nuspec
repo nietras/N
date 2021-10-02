@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <metadata minClientVersion="4.0">
+    <id>N</id>
+    <version>$version$</version>
+    <description>Tired of boilerplate? Then N is for you! The Library for World's Smallest C# Program.</description>
+    <authors>nietras</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://github.com/nietras/N</projectUrl>
+    <releaseNotes>https://github.com/nietras/N/releases</releaseNotes>
+    <copyright>Copyright © nietras. All rights Reserved</copyright>
+    <tags>boilerplate useless small fast</tags>
+    <repository type="git" url="https://github.com/Username/Project.git" />
+    <contentFiles>
+      <files include="contentFiles/any/any/NGlobalUsings.cs" buildAction="Compile" copyToOutput="false" flatten="false" />
+    </contentFiles>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\netstandard2.0\N.dll" target="lib/netstandard2.0" />
+    <file src="NGlobalUsings.cs" target="contentFiles/any/any" />
+    <file src="N.props" target="build" />
+    <file src="Icon.png" target="" />
+  </files>
+</package>

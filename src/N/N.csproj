@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>nietras</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>0.1.0</Version>
+    <PackageVersion>$(Version)</PackageVersion>
+    <LangVersion>10</LangVersion>
+    <NuspecFile>N.nuspec</NuspecFile>
+    <NuspecProperties>version=$(Version);configuration=$(Configuration)</NuspecProperties>
+  </PropertyGroup>
+
+</Project>
