@@ -10,4 +10,6 @@ public static class C
     {
         Console.WriteLine($"Hello friend from nietras!\n{string.Join("\n", args ?? Array.Empty<string>())}");
     }
+
+    public record O;
 }

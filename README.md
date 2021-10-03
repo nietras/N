@@ -10,11 +10,11 @@ Type less and save your fingers, install `N` and all you need is:
 ```csharp
 N();
 ```
-Want to be asynchronous?
+Want to be asynchronous? (World's Smallest C# async/await Program)
 ```csharp
 await T;
 ```
-Want to return?
+Want to return a code?
 ```csharp
 return I;
 ```
@@ -42,11 +42,19 @@ or
 ```csharp
 I=I;
 ```
+Need to new something up:
+```csharp
+new O();
+```
 What about `args`? `N`s got you covered.
 ```csharp
 N(args);
 ```
-
+Want to just return? You don't need `N` ;)
+```csharp
+return;
+```
+This should be the world's smallest C# program out-of-the-box in .NET 6 and C# 10.
 
 ## Supported Frameworks and Language
 .NET Standard 2.0+
