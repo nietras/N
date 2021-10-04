@@ -4,6 +4,9 @@ Tired of boilerplate? Then N is for you!
 [![NuGet version (N)](https://img.shields.io/nuget/dt/N.svg?style=flat-square)](https://www.nuget.org/packages/N/)
 [![NuGet version (N)](https://img.shields.io/nuget/v/N.svg?style=flat-square)](https://www.nuget.org/packages/N/)
 
+## Blog Post
+TBD
+
 ## Less
 Type less and save your fingers, install `N` and all you need is:
 `Program.cs`

@@ -1,4 +1,6 @@
-﻿namespace System;
+﻿using System.Runtime.CompilerServices;
+
+namespace nietras;
 
 public static class C
 {
@@ -12,4 +14,19 @@ public static class C
     }
 
     public record O;
+
+    public static Int32Awaiter GetAwaiter(this int i)
+    {
+        return new Int32Awaiter(i);
+    }
+    public readonly struct Int32Awaiter : INotifyCompletion
+    {
+        readonly int _i;
+
+        public Int32Awaiter(int i) => _i = i;
+
+        public bool IsCompleted { get; } = true;
+        public int GetResult() => _i;
+        public void OnCompleted(Action continuation) => continuation();
+    }
 }

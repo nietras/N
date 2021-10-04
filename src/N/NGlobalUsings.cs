@@ -1,1 +1,1 @@
-﻿global using static System.C;
+﻿global using static nietras.C;
