@@ -1,4 +1,4 @@
-# N - *The* Library for World's Smallest C# Program
+# N - *The* Library for World's Smallest C# Program "That Does Something"™
 Tired of boilerplate? Then N is for you!
 
 [![NuGet version (N)](https://img.shields.io/nuget/dt/N.svg?style=flat-square)](https://www.nuget.org/packages/N/)
@@ -7,9 +7,8 @@ Tired of boilerplate? Then N is for you!
 ## Blog Post
 TBD
 
-## Less
-Type less and save your fingers, install `N` and all you need is:
-`Program.cs`
+## Small Programs
+Install `N` and all you need for a full C# program in `Program.cs` is:
 ```csharp
 N();
 ```
@@ -53,11 +52,16 @@ What about `args`? `N`s got you covered.
 ```csharp
 N(args);
 ```
+
 Want to just return? You don't need `N` ;)
 ```csharp
 return;
 ```
-This should be the world's smallest C# program out-of-the-box in .NET 6 and C# 10.
+Want to do nothing? You don't need `N` ;)
+```csharp
+{}
+```
+This should be the world's smallest C# program out-of-the-box in .NET 5+ and C# 9+.
 
 ## Supported Frameworks and Language
 .NET Standard 2.0+

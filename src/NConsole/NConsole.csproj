@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -11,5 +11,11 @@
   <ItemGroup>
     <PackageReference Include="N" Version="0.2.0" />
   </ItemGroup>
+
+  <!--<ItemGroup>
+    <Using Include="System.Runtime.CompilerServices" />
+    <Using Include="System.Console" Static="true"  />
+    <Using Include="System.Int32" Alias="J" />
+  </ItemGroup>-->
 
 </Project>
