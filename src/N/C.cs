@@ -25,6 +25,9 @@ public static class C
 
     public record O;
 
+    static int _r = 0;
+    public static ref int R { get => ref _r; }
+
     public readonly record struct S;
 
     public static Task T { get; set; } = Task.CompletedTask;

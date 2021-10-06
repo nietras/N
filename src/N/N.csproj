@@ -5,10 +5,12 @@
     <RootNamespace>nietras</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>0.2.0</Version>
-    <PackageVersion>$(Version)</PackageVersion>
     <LangVersion>10</LangVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+    <Version>0.2.0</Version>
+    <PackageVersion>$(Version)</PackageVersion>
+
     <NuspecFile>N.nuspec</NuspecFile>
     <NuspecProperties>version=$(Version);configuration=$(Configuration)</NuspecProperties>
   </PropertyGroup>
