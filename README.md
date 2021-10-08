@@ -5,7 +5,7 @@ Tired of boilerplate? Then N is for you!
 [![NuGet version (N)](https://img.shields.io/nuget/v/N.svg?style=flat-square)](https://www.nuget.org/packages/N/)
 
 ## Blog Post
-TBD
+[World's Smallest C# Program (featuring `N`)](https://nietras.com/2021/10/09/worlds-smallest-csharp-program/)
 
 ## Small Programs
 Install `N` and all you need for a full C# program in `Program.cs` is
