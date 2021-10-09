@@ -3,8 +3,9 @@
   <metadata minClientVersion="4.0">
     <id>N</id>
     <version>$version$</version>
-    <description>Tired of boilerplate? Then N is for you! The Library for World's Smallest C# Program.</description>
+    <description>Tired of boilerplate? Then N is for you! The Library for World's Smallest C# Programs.</description>
     <authors>nietras</authors>
+    <owners>nietras</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
@@ -13,7 +14,7 @@
     <releaseNotes>https://github.com/nietras/N/releases</releaseNotes>
     <copyright>Copyright © nietras. All rights Reserved</copyright>
     <tags>boilerplate useless small fast</tags>
-    <repository type="git" url="https://github.com/Username/Project.git" />
+    <repository type="git" url="https://github.com/nietras/N.git" />
     <contentFiles>
       <files include="contentFiles/any/any/NGlobalUsings.cs" buildAction="Compile" copyToOutput="false" flatten="false" />
     </contentFiles>

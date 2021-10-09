@@ -1,1 +1,1 @@
-﻿global using static nietras.Nify;
+﻿global using static nietras.C;
